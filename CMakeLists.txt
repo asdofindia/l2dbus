@@ -62,7 +62,7 @@ endif( CDBUS_PKG_FOUND )
 # See if a specific Lua version has already been specified
 if( NOT DEFINED L2DBUS_LUA_VERSION )
     # The default is to use 5.1
-    set(L2DBUS_LUA_VERSION "5.1")
+    set(L2DBUS_LUA_VERSION "5.2")
 endif( NOT DEFINED L2DBUS_LUA_VERSION )
 
 # Go find Lua
