@@ -32,7 +32,7 @@
 # Otherwise the module will search for any available Lua implementation
 
 # Always search for non-versioned lua first (recommended)
-SET(_POSSIBLE_LUA_INCLUDE include include/lua include/luajit-2.0)
+SET(_POSSIBLE_LUA_INCLUDE include include/lua include/lua.h include/luajit-2.0)
 SET(_POSSIBLE_LUA_EXECUTABLE lua luajit luajit2)
 SET(_POSSIBLE_LUA_LIBRARY lua)
 
