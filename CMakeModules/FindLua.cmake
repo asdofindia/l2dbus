@@ -63,6 +63,7 @@ FIND_PATH(LUA_INCLUDE_DIR lua.h
   PATHS
   ~/Library/Frameworks
   /Library/Frameworks
+  /usr/include
   /usr/local
   /usr
   /sw # Fink
@@ -80,6 +81,7 @@ FIND_LIBRARY(LUA_LIBRARY
   PATHS
   ~/Library/Frameworks
   /Library/Frameworks
+  /usr/lib
   /usr/local
   /usr
   /sw
